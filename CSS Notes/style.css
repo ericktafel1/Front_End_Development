@@ -1,0 +1,39 @@
+.parent {
+    width: 400px;
+}
+    
+aside {
+    background: green;
+    width: 200px;
+    height: 25px;
+    display: block;
+}   
+h1 {
+    background: green;
+    width: 200px;
+    height: 200px;
+    }
+p {
+    width: 250px;
+    height: 250px;
+    background: red;
+    border-radius: 50%;
+}
+.blue {
+    width: 250px;
+    height: 250px;
+    background: blue;
+    border-radius: 50%;
+}
+#onlydiv {
+    font-size: 30px;
+}
+div {
+    width: 150px;
+    height: 150px;
+    background: red;
+}
+
+body {
+    background: yellow;
+}

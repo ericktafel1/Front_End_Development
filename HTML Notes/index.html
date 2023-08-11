@@ -1,0 +1,150 @@
+<title>Project Web</title>
+<head>Developed by: Erick Tafel</head>
+<h6>The following text is designed for educational purposes. Please do not expect eye candy.</h6>
+<h1>Hello World! =) Web Project 2022</h1>
+
+<div>
+<!--
+
+   Hey! I did my first HTML program EVER!!! :D (this is how to write a comment)
+
+-->
+<p>Paragraph tags are Block tags thus</p>
+this line is its own.
+<p>This paragraph
+   contains            a lot of lines and spaces
+   in the source            code,
+   but the                  browser
+   ignores it.
+</p>
+
+<span>This line is created with Span tag which is an Inline tag thus this line is following the Block tag line.
+</span>
+
+</div>
+
+<div>
+
+<h1>h1 tag = HUGE header</h1>
+<h2>h2 tag = Big header</h2>
+<h3>h3 tag = Large header</h3>
+<h4>h4 tag = Normal header.</h4>
+<h5>h5 tag = Small header</h5>
+<h6>h6 tag = Smallest header. Greater than h7 headers are unknown tags.</h6> 
+
+</div>
+
+Thank you for reading! Please visit my
+
+<a href="https://www.linkedin.com/in/ericktafel/">LinkedIn</a>
+
+and perhaps we both may mutually benefit.
+
+<button>Click here - this is a button tag</button>
+
+<center>The text here uses the center tag and the img tag below is sized using width and height attributes. This should not be done as it has been written in html. Instead use CSS for best practices.</center>
+
+<img src="https://st2.depositphotos.com/1480872/6041/i/950/depositphotos_60412527-stock-photo-apricot-blossom-hoa-mai-the.jpg" width="600" height="300">
+
+<p>The img tag is self closing, however, the video tag must be closed. A raw video also must be given control attribute and a source src= tag within.</p>
+
+<video controls>
+   <source src="https://www.w3schools.com/html/mov_bbb.mp4">   
+</video>
+
+<p>The video below was used to create all the code =D. An iframe tag is used for Youtube embedded videos. Thanks codedamn for <3.</p> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zRMRS2snuRg?start=3097" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>The below table has 'th' tags and the data rows have 'td' tags.</p>
+
+<style>
+   thead, tbody, tr, th, td {
+      border: 1px solid black;
+   }
+
+<!-- Used instructors CSS code to add style to the table as he did but was told to disregard.-->
+
+</style>
+<table>
+   <thead>
+      <tr>
+         <th>Bold Column 1</th>
+         <th>Bold Column 2</th>
+         <th>Bold Column 3</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td colspan="2">Column 1 value 'td colspan="2"'</td>
+         <td>Column 2 value</td>
+      </tr>
+      <tr>
+         <td rowspan ="2">Column 1 value 'td rowspan="2"'</td>
+         <td>Column 2 value</td>
+         <td>Column 3 value</td>
+      </tr>
+      <tr>
+         <td>Column 1 value</td>
+         <td>Column 2 value</td>
+      </tr>
+      <tr>
+         <td>Column 1 value</td>
+         <td>Column 2 value</td>
+         <td>Column 3 value</td>
+      </tr>
+   </tbody>
+
+</table>
+
+The URL below is the result of entering the below field. A form method="get" action="/submit" is used along with the required input types. The URL shows login data that is entered.
+http://127.0.0.1:5500/submit?Name=Erick&my-users-email=ericktafel%40gmail.com
+
+<form method="get" action="/submit">
+   <div>
+      Your name
+   <input type="text" name="Name" required>
+</div>
+<div>
+   Your email
+   <input type="email" name="my-users-email" required>
+</div>
+   <input type="submit">
+</form>
+
+
+         <!-- The below code is the ideal webpage layout-->
+
+<!DOCTYPE html>
+   <!--HTML5-->
+<html> 
+   <head>
+      <meta charset="utf-8" />
+      <title>My Title</title>
+         <!-- all meta tags for search engines, your scripts, your stylesheet go in head tag-->
+   </head>
+   <body>
+      <h1>Hello world: If a character that is unrecognized by html is entered (some emjois), it shows as special characters. You must add the meta charset="utf8" tag to allow the emoji to appear. 😍 😍 😍 😍</h1>
+      </body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html> 
+   <head>
+
+   </head>   
+   <body>
+      <div id="main">
+         <h1 id="title">Amanda Ly Tribute Page</h1>
+         <div id="img-div">
+            <img id="img" src="https://integrisok.com/-/media/campaigns/doctor-oklahoma/ep3-vaccines.ashx?revision=da735841-b7dd-4186-aa5a-7df73b522f5e">
+            <div id="img-caption">A photo of a random Pediatrician hi-fiving a small human.</div>
+            </div>  
+            
+            <div id="Tribute-info">This is a tribute page for Dr. Amanda Ly, who is an amazing woman.</div>
+            <a href="https://www.merriam-webster.com/dictionary/optometrist" id="tribute-info" target="_blank">She is an Optometrist!</a>
+         </div>
+   </body>
+</html>

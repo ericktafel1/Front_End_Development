@@ -1,0 +1,20 @@
+body {
+    background: pink;
+}
+
+.newnewlayout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.first {
+    flex-shrink: .5;
+}
+.newnewlayout div {
+    background: red;
+    flex-basis: 300px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+}
